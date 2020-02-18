@@ -14,9 +14,11 @@
     </head>
     <body>
 <!-- Content goes in the body  -->
-        <!--[if lt IE 7]>
+        <!-- [if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+
+<!-- Headings and Tags -->
         <!-- <h1>This is my first tag!! This is a h1 heading</h1>
         <h2>This is a h2 heading</h2>
         <h3> This is a h3 heading</h3>
@@ -29,9 +31,10 @@
         </p>
         <p>
             Eiusmod <em>consequat consequat cupidatat dolor.</em> Proident elit pariatur velit mollit esse excepteur deserunt consectetur sint aute eiusmod. Enim sint reprehenderit nisi eiusmod deserunt Lorem anim deserunt excepteur. Eu et pariatur pariatur incididunt incididunt incididunt eu commodo ullamco incididunt duis veniam ipsum ad. Aute nisi laborum voluptate amet quis adipisicing veniam exercitation irure.
-        </p>
-
-        <ol>
+        </p> -->
+        
+<!-- Lists -->
+        <!-- <ol>
             <li>red</li>
             <li>blue</li>
                 <ul>
@@ -45,7 +48,8 @@
         <img src=https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2F5Nj2BngIko0%2Fmaxresdefault.jpg&f=1&nofb=1>
         <a href="https://duckduckgo.com/">This isn't google...</a> -->
 
-        <table>
+<!-- Table Work -->
+        <!-- <table>
 
             <thead>
                 <tr>
@@ -67,9 +71,44 @@
                 </tr>
                 
             </tbody>
-           
-           
-        </table>
-        <script src="" async defer></script>
+        </table> -->
+
+<!-- Form Scratchpad -->
+        <!-- action - where the form sends data to -->
+        <!-- method - what http method (get/post) -->
+        <h2>Login</h2>
+        <form>
+            <label for="username">Email:</label>
+            <input id="username" type="email" placeholder="Username">
+            
+            <label for="password">Password:</label>
+            <input id="password" type="password" placeholder="Password" required>
+            
+            <input type="submit">
+        </form>
+        
+<!-- Radial Buttons and Dropdowns -->
+        <p>Do you prefer cats or dogs?</p>
+        <form>
+            <label for="dogs">Dogs:</label>
+            <input name="petChoice" id="dogs" type="radio" value="DOG">
+            
+            <label for="cats">Cats:</label>
+            <input name="petChoice" id="cats" type="radio" value="CATS">
+            
+            <p>How you feeling?</p>
+            <select name="Mood">
+                <option value="happy">:-)</option>
+                <option value="neutral">:-|</option>
+                <option value="sad">:-(</option>
+            </select>
+
+            <textarea name="Bio" id="userBio" cols="30" rows="10"></textarea>
+
+            <button>Go!</button>
+        </form>
+        
+        
+        <script src="" async defer></script>       
     </body>
 </html>
