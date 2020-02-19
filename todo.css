@@ -1,0 +1,15 @@
+li {
+    border: 2px solid blueviolet;
+}
+
+#chk2 {
+    background: red;
+}
+
+#chk1 {
+    background: magenta;
+}
+
+.completed {
+    text-decoration: line-through;
+}

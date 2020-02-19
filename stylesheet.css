@@ -1,0 +1,25 @@
+/*  selector {
+    property:value;
+    }*/
+
+h1 {
+    color:  rgb(0, 255, 242);
+    border: 2px solid rgb(219, 119, 24)
+}
+
+li {
+    color: rgb(105, 18, 206);
+}
+
+h4 {
+    background: rgba(34, 210, 110, 1);
+    color: rgb(255, 0, 255);
+}
+
+body {
+    background-color: royalblue;
+    /* background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/86a22530-d2ff-4466-b353-dff814812e4d/d267c9q-f5e9da23-cf71-4088-bef4-a509f468492d.jpg/v1/fill/w_800,h_600,q_75,strp/wood_grain_texture_9_by_escapist1901-d267c9q.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwic3ViIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl0sIm9iaiI6W1t7InBhdGgiOiIvZi84NmEyMjUzMC1kMmZmLTQ0NjYtYjM1My1kZmY4MTQ4MTJlNGQvZDI2N2M5cS1mNWU5ZGEyMy1jZjcxLTQwODgtYmVmNC1hNTA5ZjQ2ODQ5MmQuanBnIiwid2lkdGgiOiI8PTgwMCIsImhlaWdodCI6Ijw9NjAwIn1dXX0.E6dbnv8m8hJEOr5X1srGaIrmBVjDN2-pn3LKVyldCv8);
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+}
