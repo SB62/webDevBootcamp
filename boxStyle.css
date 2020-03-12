@@ -1,0 +1,21 @@
+p {
+    /* Content - WIdth and Height */
+    width: 50%;
+
+    /* Border */
+    border: 2px solid blue;
+    
+    /* Padding */
+    /* padding: 10px; -- adds padding on all sides */
+    padding-left: 40px; /* Adds padding on only specified side */
+
+    /* Margin */
+    /* margin: 40px; -- adds same margin everywhere */
+    /* margin-top: 500px; -- adds margin only specified side */
+    /* Shorthand notation to add margin in specified places in one line instead of 4. Order goes top, right, bottom, left */
+    /* margin: 0px 0px 0px 2000px; */
+    /* Auto can be used to automatically center */
+    margin: 10px auto;
+
+
+}
