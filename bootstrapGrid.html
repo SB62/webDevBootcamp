@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bootstrap Grid System</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <style type="text/css">
+            .pink {
+                background: pink;
+                border: 1px solid purple;
+            }
+
+            .orange {
+                background: orange;
+                border: 1px dashed orangered;
+            }
+
+            .purple {
+                background: purple;
+                border: 1px solid rebeccapurple;
+            }
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <!-- ====================================== -->
+        <!--              Objectives                -->
+        <!-- 1. Understand Purpose of Grid System   -->
+        <!-- 2. Understand 4 different sizes        -->
+        <!-- 3. Write Nested Grids                  -->
+        <!-- ====================================== -->
+
+        <div class="container">
+            <!-- <div class="row">
+                <div class="col-md-1 col-sm-2 pink">COL MD 1</div>
+                <div class="col-md-1 col-sm-2 pink">COL MD 1</div>
+                <div class="col-md-1 col-sm-2 pink">COL MD 1</div>
+                <div class="col-md-1 col-sm-2 pink">COL MD 1</div>
+                <div class="col-md-1 col-sm-2 pink">COL MD 1</div>
+                <div class="col-md-1 col-sm-2 pink">COL MD 1</div>
+                <div class="col-md-1 col-sm-2 pink">COL MD 1</div>
+                <div class="col-md-1 col-sm-2 pink">COL MD 1</div>
+                <div class="col-md-1 col-sm-2 pink">COL MD 1</div>
+                <div class="col-md-1 col-sm-2 pink">COL MD 1</div>
+                <div class="col-md-1 col-sm-2 pink">COL MD 1</div>
+                <div class="col-md-1 col-sm-2 pink">COL MD 1</div>
+            </div> -->
+            <div class="row">
+                <div class="col-md-3 col-sm-6 pink">
+                    <div class="row">
+                        <div class="col-lg-6 pink orange">First Half</div>
+                        <div class="col-lg-6 pink orange">Second Half</div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 pink">Tour Date</div>
+                <div class="col-md-3 col-sm-6 pink">Tour Date</div>
+                <div class="col-md-3 col-sm-6 pink">
+                    <div class="row">
+                        <div class="col-lg-2 purple">ITEM 1</div>
+                        <div class="col-lg-2 purple">ITEM 2</div>
+                        <div class="col-lg-2 purple">ITEM 3</div>
+                        <div class="col-lg-2 purple">ITEM 4</div>
+                        <div class="col-lg-2 purple">ITEM 5</div>
+                        <div class="col-lg-2 purple">ITEM 6</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="" async defer></script>
+    </body>
+</html>
