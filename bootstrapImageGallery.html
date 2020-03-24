@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bootstrap Image Gallery</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+        <link rel="stylesheet" href="bootstrapImageGallery.css">
+        <style type="text/css">
+
+        </style>
+    </head>
+
+    <!-- Colors -->
+    <!-- Dark Blue: #2c3e50 -->
+    <!-- Light Gray: #ecf0f1 -->
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+       
+        <!-- Navbar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> IMGS</a>
+              </div>
+          
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                  <li><a href="#">About <span class="sr-only">(current)</span></a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#">Sign Up</a></li>
+                  <li><a href="#">Login</a></li>
+                </ul>
+              </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+          </nav>
+        
+          <!-- Jumbotron for page header -->
+        <div class="container">
+            <div class="jumbotron">
+                <h1><span class="glyphicon glyphicon-camera" aria-hidden="true"></span> The Image Gallery</h1>
+                <p>A bunch of images from <a href="https://unsplash.com">Unsplash</a> I'm using for my project</p>
+            </div>
+
+            <!-- Images -->          
+            <div class="row">
+              <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <a href="#" class="thumbnail">
+                  <img src="https://source.unsplash.com/QErbOGxDzDE" alt="black and brown electronic">
+                </a>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <a href="#" class="thumbnail">
+                  <img src="https://source.unsplash.com/1q7f2HE_rlA" alt="Vaporwave TP">
+                </a>
+              </div>
+              
+              <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <a href="#" class="thumbnail">
+                  <img src="https://source.unsplash.com/QoyLenWLIs8" alt="black and silver car steering wheel">
+                </a>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <a href="#" class="thumbnail">
+                  <img src="https://source.unsplash.com/Dzn4LwubNwM" alt="Bee Closeup">
+                </a>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <a href="#" class="thumbnail">
+                  <img src="https://source.unsplash.com/WpPr2sUyy3U" alt="man wering mask making blue smoke">
+                </a>
+              </div>
+              
+              <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <a href="#" class="thumbnail">
+                  <img src="https://source.unsplash.com/7j8Ls1EVImA" alt="tron touch">
+                </a>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <a href="#" class="thumbnail">
+                  <img src="https://source.unsplash.com/mZbcBrUdR8A" alt="boney butt">
+                </a>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <a href="#" class="thumbnail">
+                  <img src="https://source.unsplash.com/aQGfSlxFCNg" alt="the fortune-teller">
+                </a>
+              </div>
+              
+              <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                <a href="#" class="thumbnail">
+                  <img src="https://source.unsplash.com/bG8U3kaZltE" alt="hot mic">
+                </a>
+              </div>
+              
+            </div>
+            
+        </div>
+        
+        <!-- scripts -->
+        <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+        <script src="" async defer></script>
+    </body>
+</html>
