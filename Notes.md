@@ -5,4 +5,3 @@
 * MDN Element reference - https://developer.mozilla.org/en-US/docs/Web/HTML/Element
 * \<div> is a block element
 * \<span> is an inline element
-*
