@@ -13,6 +13,7 @@ $("ul").on("click", ".deleteButton", function (event) {
   event.stopPropagation();
 });
 
+// Add Todos
 $("input[type='text']").keypress(function (event) {
   if (event.which === 13) {
     // extract typed value and clear input
@@ -20,7 +21,14 @@ $("input[type='text']").keypress(function (event) {
     $(this).val("");
     // create new li and add to ul
     $("ul").append(
-      "<li><span class='deleteButton'>X</span> " + todoText + "</li>"
+      "<li><span class='deleteButton'><i class='fas fa-dumpster-fire'/></i></span> " +
+        todoText +
+        "</li>"
     );
   }
+});
+
+// Hide and unhide Text Input
+$(".addButton").on("click", function () {
+  $("input[type='text']").fadeToggle();
 });
